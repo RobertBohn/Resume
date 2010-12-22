@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>Robert Bohn</title>
+    <link>http://www.robertbohn.com/</link>
+    <description>Computer Programmer/Analyst/Webmaster</description>
+    <language>en-us</language>
+    <pubDate>Sat, 19 Apr 2008 11:00:00 EST</pubDate>
+    <webMaster>robertbohn@hotmail.com</webMaster>
+    <copyright>Copyright 2006-2007, Robert Bohn</copyright>    
+    <item>
+      <title>Robert Bohn - Homepage</title>
+      <description>Computer Programmer/Analyst/Webmaster Specializing in Internet Application Development From Conception to Implementation.</description>
+      <pubDate>Fri, 18 Apr 2008 10:00:00 EST</pubDate>
+      <link>http://www.robertbohn.com/</link>
+      <guid isPermaLink="false">Home</guid>
+    </item>
+    <item>
+      <title>Robert Bohn - Resume</title>
+      <description>Computer Programmer/Analyst/Webmaster with over twenty years of systems design and application development experience. Specializing in new product development from conception to implementation. Experienced with web site design, object oriented programming, relational database design, graphical user interface design, and Internet application development.</description>
+      <pubDate>Sat, 19 Apr 2008 10:00:00 EST</pubDate>
+      <link>http://www.robertbohn.com/resume.html</link>
+      <guid isPermaLink="false">Resume</guid>
+    </item>
+  </channel>
+</rss>

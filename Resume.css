@@ -1,0 +1,40 @@
+﻿#Resume { background:white; border:3px solid #e0e0e0; margin:22px 30px 20px 15px; padding:10px 30px 15px 30px; font-family: arial, verdana, sans-serif;  color:#333; font-size:13px; }
+
+#PrintIcon { text-align:center; position:absolute; left:80px; top:130px; }
+#PrintIcon img { border:0px; }
+#PrintIcon p { margin:0; padding:0; }
+#PrintIcon a { font-size:11px; color:#800080; background-color:inherit; text-decoration:none; }
+#PrintIcon a:hover { text-decoration:underline; }
+
+#Resume h1 { color:#333; background-color:inherit; font-size:20px; font-weight:normal; text-align:center; margin-right:30px; }
+#Resume h2 { color:#333; background-color:inherit; font-size:16px; font-weight:normal; text-align:center; margin-right:30px; margin-bottom:0px; }
+#Resume h2 a { color:#333; background-color:inherit; font-size:16px; font-weight:normal; text-align:center; text-decoration:none; margin-bottom:0px; }
+#Resume h2 a:hover { text-decoration:underline; }
+#Resume h3 { color:#333; background-color:inherit; font-size:16px; font-weight:normal; border-bottom:solid 1px #333; margin-top:15px; margin-bottom:6px; clear:left; }
+#Resume p { color:#333; background-color:inherit; font-size:13px; margin:0; }
+
+#Skills ul { margin:0px 50px 10px 0px; padding:0; float:left; }
+#Skills ul li { margin:0; padding:0; list-style:none; list-style-position:outside; }
+
+.Dates { float:right; }
+a { color:#0000cc; background-color:inherit; text-decoration:none; }
+a:hover { text-decoration:underline; }
+ul { margin:0; padding:0; }
+ul li { margin:0px; padding:0px; list-style:disc; list-style-position:inside; }
+.JobSeperator { border-bottom:solid 1px #333; margin: 7px 0px 6px 0px;}
+
+@media print 
+{
+  * { color:#000000 !important; background-color:inherit; }
+  body { color:#000000; background-color:#ffffff; font-family: arial, verdana, sans-serif; margin:0; padding:0; }
+  #Header, #PrintIcon {display:none; }
+  #Content { border-style:none; width:100%; }
+  #Resume { border:none; margin:0; padding:0; font-size:10pt; }
+  #Resume h1 { font-size:14pt; margin-right:21pt; }
+  #Resume h2 { font-size:12pt; margin-right:21pt; }
+  #Resume h2 a { font-size:12pt; }
+  #Resume h3 { font-size:12pt; margin-top:12pt; margin-bottom:5pt; border-bottom:solid 1px #000000; }
+  #Resume p { font-size:10pt; }
+  #Skills ul { margin:0pt 30pt 8pt 0pt; }
+  .JobSeperator { border-bottom:solid 1px #000000; margin: 5pt 0pt 5pt 0pt;}
+}
